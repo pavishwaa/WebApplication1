@@ -33,6 +33,9 @@ namespace WebApplication1
 				endpoints.MapGet("/", async context =>
 				{
 					await context.Response.WriteAsync("Hello World!");
+					await context.Response.WriteAsync("Vishwa Patel - UX Designer");
+					await context.Response.WriteAsync("Jeel Patel - Programmer");
+					await context.Response.WriteAsync("Kevin Ly - Database");
 				});
 			});
 		}
