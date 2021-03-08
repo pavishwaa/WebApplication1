@@ -32,10 +32,10 @@ namespace WebApplication1
 			{
 				endpoints.MapGet("/", async context =>
 				{
-					await context.Response.WriteAsync("Hello World!");
-					await context.Response.WriteAsync("Vishwa Patel - UX Designer");
-					await context.Response.WriteAsync("Jeel Patel - Programmer");
-					await context.Response.WriteAsync("Kevin Ly - Database");
+					await context.Response.WriteAsync("Hello World! \n");
+					await context.Response.WriteAsync("Vishwa Patel - UX Designer \n");
+					await context.Response.WriteAsync("Jeel Patel - Programmer \n");
+					await context.Response.WriteAsync("Kevin Ly - Database \n");
 				});
 			});
 		}
