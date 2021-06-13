@@ -36,6 +36,11 @@ namespace WebApplication1
 					await context.Response.WriteAsync("Vishwa Patel - UX Designer \n");
 					await context.Response.WriteAsync("Jeel Patel - Programmer \n");
 					await context.Response.WriteAsync("Kevin Ly - Database \n");
+
+					endpoints.MapControllerRoute(
+					name: "default",
+					pattern: "{controller=Home}/{action=Index}/{id?}");
+
 				});
 			});
 		}
